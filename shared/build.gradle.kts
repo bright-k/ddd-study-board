@@ -1,6 +1,5 @@
 dependencies {
-    api(project(":shared"))
-    implementation("org.hibernate.orm:hibernate-core:6.2.7.Final")
+    implementation("jakarta.persistence:jakarta.persistence-api:3.1.0")
 }
 
 tasks {

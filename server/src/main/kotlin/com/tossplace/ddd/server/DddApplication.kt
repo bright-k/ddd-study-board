@@ -1,4 +1,4 @@
-package com.tossplace.ddd
+package com.tossplace.ddd.server
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

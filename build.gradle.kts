@@ -30,6 +30,7 @@ subprojects {
 
     dependencies {
         implementation("org.jetbrains.kotlin:kotlin-reflect")
+        implementation("io.github.microutils:kotlin-logging:2.1.23")
     }
 
     tasks {

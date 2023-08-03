@@ -1,6 +1,7 @@
 rootProject.name = "ddd-study-board"
 
 include(":server")
+include(":shared")
 include(":user-module")
 include(
     ":user-module:user-domain",
