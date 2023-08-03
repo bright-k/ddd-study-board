@@ -5,6 +5,7 @@ import java.time.Instant
 
 class Comment(
     id: Long = 0,
+    authorId: Long,
     boardId: Long,
     parentCommentId: Long? = null,
     contents: String,
@@ -12,6 +13,9 @@ class Comment(
     updatedAt: Instant = createdAt,
 ) : AggregateRoot() {
     var id: Long = id
+        private set
+
+    var authorId: Long = authorId
         private set
 
     var boardId: Long = boardId

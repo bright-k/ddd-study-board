@@ -5,6 +5,7 @@ import java.time.Instant
 
 class Board(
     id: Long = 0,
+    authorId: Long,
     title: String,
     contents: String,
     thumbnailImage: ThumbnailImage,
@@ -12,6 +13,9 @@ class Board(
     updatedAt: Instant = createdAt,
 ) : AggregateRoot() {
     var id: Long = id
+        private set
+
+    var authorId: Long = authorId
         private set
 
     var title: String = title
